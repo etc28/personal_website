@@ -1,0 +1,114 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages.css">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/public-pixel');
+    </style>
+    <script type="text/javascript" src="pages.js"></script>
+    <title>CDM Posters</title>
+</head>
+
+<body>
+    <!-- nav bar -->
+    <div>
+        <ul id="navbar">
+            <a href="main.html">
+                <img id="logo" src="./images/personal logo thicker.png" alt="">
+            </a>
+            <li class="dropdown">
+                <a class="dropbtn" href="about.html">About Me!</a>
+                <ul class="dropdown_content">
+                    <li><a href="./EmmaChau_Resume.pdf" download="EmmaChau_Resume.pdf">Resume</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn" href="cdm_posters.html">CDM Posters</a>
+                <ul class="dropdown_content">
+                    <li><a href="psych_posters.html">Psych Posters</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn" href="other.html">Artwork</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- content -->
+    <div class="content">
+        <div>
+            <h2>Composing Digital Media (CDM) Projects</h2>
+            <p>
+                I took the class Composing Digital Media at Pitt in the Fall 23-24 semester. You can view a couple of
+                the projects I worked on here! I enjoyed learning how to (further) use Adobe products while creating
+                these projects.
+            </p>
+        </div>
+        <div>
+            <ul id="cat_posters">
+                <li>
+                    <h2>Advocacy Posters</h2>
+                </li>
+                <li id="cat_posters"><img src="./images/pngs/Advocacy Poster 2 - Final Copy.png" alt=""></li>
+                <li id="cat_posters"><img src="./images/pngs/Advocacy Poster 1 - Final Copy.png" alt=""></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Project Description</h3>
+            <p>This project asks you to advocate for a cause through the juxtaposition of images and text. You will
+                create 2 advocacy posters on the same topic. <span id="ellipse1">...</span><span id="moreText1">You could be making a social commentary, raising public
+                awareness about a social issue, and/or calling for action. Whatever you choose, you should consider your
+                audience and what they would find persuasive or interesting, and how you therefore wish to attract and
+                direct their attention.</span>
+            </p>
+            <button onclick="displayMore('ellipse1', 'moreText1', 'readMore_btn1')" id="readMore_btn1"><img src="./images/small_down_arrow.png" alt=""></button>
+            <h3>Artist’s Statement</h3>
+            <p>
+                My advocacy posters focused on informing new and future cat owners of the importance of getting your cat spayed/neutered. My first
+                poster is meant to look simpler with the cat head being the focus of the whole page. <span id="ellipse2">...</span><span id="moreText2">
+                The collage of cats is utilized to attract the audience’s attention. This poster is supposed to be read and looked at quickly, hence 
+                why there is such limited text. The second poster is meant to be more informative with added facts to expand on the general point of 
+                each message. Unlike the first poster, this one is meant to be read thoroughly. There were two key messages I planned to communicate 
+                through my posters. The first point was spaying/neutering can extend your cat’s life and eliminate some future problems, especially 
+                diseases dealing with the reproductive system. The second point was that spaying and neutering your cat fights pet overpopulation. 
+                Many cats cannot find homes because of cat overpopulation, and some are euthanized as a result.</span>
+            </p>
+            <button onclick="displayMore('ellipse2', 'moreText2', 'readMore_btn2')" id="readMore_btn2"><img src="./images/small_down_arrow.png" alt=""></button>
+        </div>
+        <div>
+            <ul id="cat_posters">
+                <li>
+                    <h2 id="infoVid">Informative Video</h2>
+                </li>
+                <li>
+                    <iframe id="info_vid" src="https://www.youtube.com/embed/ZIsHQgGDMLM?si=efDNX3s6deTe16nf"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>Project Description</h3>
+            <p>You will create a 2-3 min informative video that demonstrates a concept of your choice. Your purpose is to inform the audiences and deepen 
+                their awareness of the concept. <span id="ellipse3">...</span><span id="moreText3">You will include a title screen at some point during your video and include any combination of found and/or 
+                original footage throughout the video. Your video should demonstrate experimentation with multitrack video editing, accompanied by your own 
+                voice and a polished sound track.</span>
+            </p>
+            <button onclick="displayMore('ellipse3', 'moreText3', 'readMore_btn3')" id="readMore_btn3"><img src="./images/small_down_arrow.png" alt=""></button>
+            <h3>Artist’s Statement</h3>
+            <p>The topic of my video was AI and the Art World. Generally, I wanted to briefly overview how AI and art intersect and what affordances do they 
+                give to artists. <span id="ellipse4">...</span><span id="moreText4">The first key message was how art reflects our society and that utilizing AI in the artmaking process shows how we have 
+                advanced as a society. I’d say the other key message I intended to portray through my video was to make the audience think about the ethical 
+                issues with creating AI-generated art. The overall point of the video was that AI use in artmaking is very nuanced because it is a new topic 
+                with many viewpoints but using it is also not completely negative. Artists should always keep in mind the issues because those problems, especially 
+                dealing with ownership and bias, affect real people in the world.</span>
+            </p>
+            <button onclick="displayMore('ellipse4', 'moreText4', 'readMore_btn4')" id="readMore_btn4"><img src="./images/small_down_arrow.png" alt=""></button>
+        </div>
+    </div>
+</body>
+
+</html>

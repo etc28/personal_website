@@ -1,0 +1,175 @@
+img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+h1, h2, h3, p {
+    font-family: 'Public Pixel', sans-serif;
+    color: blueviolet;
+    line-height: 30px;
+}
+
+#navbar {
+    z-index: 10;
+    overflow: visible;
+    background-color: lavender;
+}
+
+#navbar a {
+    font-family: 'Public Pixel', sans-serif;
+    font-size: 15px;
+    float: left;
+    display: block;
+    color: blueviolet;
+    background-color: lavender;
+    text-align: left;
+    text-decoration: none;
+    max-width: 200px;
+    min-width: 100px;
+}
+
+#navbar a:hover {
+    background-color: blueviolet;
+    color: lavender;
+}
+
+li {
+    display: inline;
+    position: relative;
+}
+
+#navbar ul {
+    z-index: 10;
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    display: none;
+}
+
+#navbar li:hover ul {
+    display: inline-block;
+    padding: 0px;
+}
+
+.dropbtn {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    /* display: block; */
+    color: blueviolet;
+    background-color: lavender;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: blueviolet;
+    background-color: lavender;
+}
+
+.dropdown_content {
+    min-width: 160px;
+}
+
+.dropdown_content a {
+    color: blueviolet;
+    background-color: lavender;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+
+.dropdown_content a:hover {
+    background-color: blueviolet;
+    color: lavender;
+}
+
+.dropdown:hover .dropdown_content {
+    background-color: transparent;
+    color: lavender;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: blueviolet;
+    color: lavender;
+}
+
+.img_container {
+    width: 80%;
+    margin-left: 10%;
+    position: sticky;
+}
+
+.overlay_text {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    bottom: 33%;
+    transform: translate(0, 0);
+    text-align: left;
+    max-width: 75%;
+    max-height: auto;
+    font-size: 1vw;
+}
+
+#logo {
+    display: block;
+    float: left;
+    width: 40px;
+    height: auto;
+    padding: 5px;
+}
+
+#cat_posters img {
+    display: inline;
+    float: left;
+    height: 500px;
+    margin: 20px;
+}
+
+#cat_posters {
+    float: right;
+    z-index: -1;
+}
+
+#info_vid iframe{
+    float: right;
+    margin-right: 100px;
+    vertical-align: top;
+    height: 370px;
+    padding: 20px;
+}
+
+.work_titles {
+    text-align: center;
+}
+
+.content {
+    padding: 10px;
+    background-color: transparent;
+    z-index: -1;
+}
+.content div{
+    float: left;
+    z-index: -1;
+}
+.content li {
+    z-index: -1;
+}
+.content button {
+    display: block;
+    margin-left: 50%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
